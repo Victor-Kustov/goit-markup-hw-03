@@ -332,9 +332,9 @@ img {
 
 /* --------------FOOTER---------------- */
 
-address {
+.address {
   font-style: normal;
-  font-style: 14px;
+  font-size: 14px;
 }
 
 .footer-address {
