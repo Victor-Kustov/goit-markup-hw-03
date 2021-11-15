@@ -42,13 +42,13 @@
         </div>
     </header>
     <main>
-        <section class="hero hero-container">
+        <section class="hero">
             <div class="container">
                 <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
                 <button class="hero-button button" type="button">Заказать услугу</button>
             </div>
         </section>
-        <section class="benefits">
+        <section class="section">
             <div class="container">
 
                 <!-- это будет невидимый заголовок второго уровня -->
@@ -85,68 +85,74 @@
                 </ul>
             </div>
         </section>
-        <section class="business">
-            <div class="container business-container">
+        <section class="section business-section">
+            <div class="container">
                 <h2 class="business-title">Чем мы занимаемся</h2>
                 <ul class="list business-list">
                     <li class="business-item">
-                        <a class="link business-link" href="#" target="_blank" rel="noopener noreferrer">
-                            <img src="./images/img1.jpg" alt="Фото человек работает за компьютером" width="370" height="294">
-                        </a>
+                        <img src="./images/img1.jpg" alt="Фото человек работает за компьютером" width="370" height="294">
                     </li>
                     <li class="business-item">
-                        <a class="link business-link" href="#" target="_blank" rel="noopener noreferrer">
-                            <img src="./images/img2.jpg" alt="Фото человек смотрит в телефон" width="370" height="294">
-                        </a>
+                        <img src="./images/img2.jpg" alt="Фото человек смотрит в телефон" width="370" height="294">
                     </li>
                     <li class="business-item">
-                        <a class="link business-link" href="#" target="_blank" rel="noopener noreferrer">
-                            <img src="./images/img3.jpg" alt="Фото человек смотрит в планшет" width="370" height="294">
-                        </a>
+                        <img src="./images/img3.jpg" alt="Фото человек смотрит в планшет" width="370" height="294">
                     </li>
                 </ul>
             </div>
         </section>
-        <section class="team">
-            <div class="container team-container">
+        <section class="section team">
+            <div class="container">
                 <h2 class="team-title">Наша команда</h2>
                 <ul class="list team-list">
                     <li class="team-item">
                         <img src="./images/photo1.jpg" alt="Product Designer" width="270" height="280">
-                        <h3 class="team-list-title">Игорь Демьяненко</h3>
-                        <p class="team-text" lang="en">Product Designer</p>
+                        <div class="team-team">
+                            <h3 class="team-list-title">Игорь Демьяненко</h3>
+                            <p class="team-text" lang="en">Product Designer</p>
+                        </div>
                     </li>
                     <li class="team-item">
                         <img src="./images/photo2.jpg" alt="Frontend Developer" width="270" height="280">
-                        <h3 class="team-list-title">Ольга Репина</h3>
-                        <p class="team-text" lang="en">Frontend Developer</p>
+                        <div class="team-team">
+                            <h3 class="team-list-title">Ольга Репина</h3>
+                            <p class="team-text" lang="en">Frontend Developer</p>
+                        </div>
                     </li>
                     <li class="team-item">
                         <img src="./images/photo3.jpg" alt="Marketing" width="270" height="280">
-                        <h3 class="team-list-title">Николай Тарасов</h3>
-                        <p class="team-text" lang="en">Marketing</p>
+                        <div class="team-team">
+                            <h3 class="team-list-title">Николай Тарасов</h3>
+                            <p class="team-text" lang="en">Marketing</p>
+                        </div>
                     </li>
                     <li class="team-item">
                         <img src="./images/photo4.jpg" alt="UI Designer" width="270" height="280">
-                        <h3 class="team-list-title">Михаил Ермаков</h3>
-                        <p class="team-text" lang="en">UI Designer</p>
+                        <div class="team-team">
+                            <h3 class="team-list-title">Михаил Ермаков</h3>
+                            <p class="team-text" lang="en">UI Designer</p>
+                        </div>
                     </li>
                 </ul>
             </div>
         </section>
     </main>
     <footer class="footer">
-        <div class="container footer-container">
+        <div class="container">
             <a class="link footer-logo" href="#">Web<span class="footer-logo-color">Studio</span></a>
-            <address>
+            <address style="footer-address">
                 <ul class="list footer-list">
-                    <li>
-                        <a class="link footer-address" href="https://goo.gl/maps/NmV2bP52EN1xxGEw7" rel="noopener noreferrer">
+                    <li class="footer-item">
+                        <a class="link footer-link" href="https://goo.gl/maps/NmV2bP52EN1xxGEw7" rel="noopener noreferrer">
                             г. Киев, пр-т Леси Украинки, 26
                         </a>
                     </li>
-                    <li><a class="link footer-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li><a class="link footer-tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                    <li class="footer-item">
+                        <a class="link footer-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
+                    <li>
+                        <a class="link footer-tel" href="tel:+380961111111">+38 096 111 11 11</a>
+                    </li>
                 </ul>
             </address>
         </div>
